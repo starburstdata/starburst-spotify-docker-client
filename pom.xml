@@ -33,6 +33,7 @@
         <shadeBase>com.starburstdata.docker.\$internal</shadeBase>
 
         <dep.jackson.version>2.9.4</dep.jackson.version>
+        <dep.guava.version>20.0</dep.guava.version>
 
         <!-- Silence maven-javadoc-plugin saying there are no public classes. -->
         <show>package</show>
