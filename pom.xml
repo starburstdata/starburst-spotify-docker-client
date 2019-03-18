@@ -80,10 +80,6 @@
                                     <shadedPattern>${shadeBase}.com.fasterxml</shadedPattern>
                                 </relocation>
                                 <relocation>
-                                    <pattern>com.kenai</pattern>
-                                    <shadedPattern>${shadeBase}.com.kenai</shadedPattern>
-                                </relocation>
-                                <relocation>
                                     <pattern>javassist</pattern>
                                     <shadedPattern>${shadeBase}.javassist</shadedPattern>
                                 </relocation>
@@ -141,7 +137,6 @@
                                     <excludes>
                                         <exclude>mozilla/*</exclude>
                                         <exclude>jetty-dir.css</exclude>
-                                        <exclude>jni/**</exclude>
                                         <exclude>mozilla/public-suffix-list.txt</exclude>
                                         <exclude>META-INF/maven/**</exclude>
                                         <exclude>META-INF/*.SF</exclude>
